@@ -1,0 +1,105 @@
+html {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+}
+
+/* Navigation */
+
+@media only screen and (max-width: 700px) {
+  nav img {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+nav li {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+nav a {
+  color: gray;
+}
+
+.active a {
+  color: #399bd1;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  justify-content: center;
+}
+
+.jumbotron-bike {
+  background-image: url(/Users/alexmorton/Documents/projects/Jumpstart/resources/images/jumbotron-bike.jpg);
+}
+
+.jumbotron h1 {
+  font-family: 'Monoton', sans-sans-serif;
+  color: white;
+  font-size: 7.1rem;
+  text-align: center;
+  margin-top: 11.85rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.jumbotron h3 {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  width: 51.3rem;
+  margin-bottom: 2.8rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+@media only screen and (max-width: 600px) {
+  .jumbotron h1 {
+    font-size: 5.7rem;
+  }
+
+  .jumbotron h3 {
+    width: 100%;
+  }
+}
+
+.jumbotron a {
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  width: 11.4rem;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  position: relative;
+  text-align: center;
+}
+
+/* Featured project */
+
+section h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+  margin-bottom: 20px;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+}
+
+.categories h4 {
+  color: #399bd1;
+}
+
+section h3, h4 {
+  font-weight: bold;
+}
+
+.image-container {
+  opacity: 0.7;
+}
